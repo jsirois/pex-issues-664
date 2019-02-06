@@ -1,4 +1,5 @@
 *.pyc
+/pex27
 
 /build/
 /dist/

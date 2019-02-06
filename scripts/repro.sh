@@ -4,7 +4,7 @@ cd "$(git rev-parse --show-toplevel)"
 
 curl -SL https://github.com/pantsbuild/pex/releases/download/v1.6.1/pex27 -O
 chmod +x pex27
-./pex27 -vvv -r requirements.txt . -m example -o build/example
+./pex27 -vvv . -m example -o build/example
 
 echo "Should work:"
 ./build/example
